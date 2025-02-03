@@ -7,7 +7,9 @@
 ***Group:*** CC-312.
 
 
-This project implements a dynamic fractal generator created in haskell with a GTK-based user interface.'
+This project implements a dynamic fractal generator created in haskell with a GTK-based user interface.  
+
+
 ***Features:***  
 
 - Interactive Controls:  
@@ -31,12 +33,13 @@ This project implements a dynamic fractal generator created in haskell with a GT
     Cairo for rendering
     Complex number calculations for fractal generation
     State management using IORef
+   
 
 
-*** How To Run It? ***
+***How To Run It?***
 
 - You will need to install the following dependencies:
 
-**cabal install gi-gtk gi-cairo haskell-gi-base**
+        cabal install gi-gtk gi-cairo haskell-gi-base
 
 - Run  **cabal build**  and then **cabal run**
