@@ -1,0 +1,16 @@
+name:                fractal-generator
+version:             0.1.0.0
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable fractal-generator
+  main-is:             Main.hs
+  other-modules:       FractalTypes
+                     , FractalLogic
+  build-depends:       base >=4.14 && <5
+                     , gi-gtk >=3.0
+                     , gi-cairo
+                     , gi-gdk
+                     , haskell-gi-base
+  default-language:    Haskell2010
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
