@@ -1,4 +1,4 @@
-   
+    
 ***Authors:***  
 - Rodrigo Mederos González   
 - Alejandro Echevarría Brunet  
@@ -12,34 +12,27 @@ This project implements a dynamic fractal generator created in haskell with a GT
 
 ***Features:***  
 
-- Interactive Controls:  
+- The Haskell backend:
+    Provides a REST API endpoint at /generate  
+    Supports both Mandelbrot and Julia set generation  
+    Uses efficient algorithms for fractal calculation  
+    Handles parameter validation and CORS     
+- The React frontend:
+    Provides an interactive interface for fractal generation  
+    Uses HTML Canvas for rendering  
+    Includes controls for:   
+        Fractal type selection (Mandelbrot/Julia)
+        Maximum iterations
+        Zoom level
 
-    Switch between Mandelbrot and Julia sets
-    Adjust maximum iterations using a slider
-    Pan by left-clicking and dragging
-    Zoom in by right-clicking
 
-
-- Visualization:
-
-    600x600 pixel canvas
-    Smooth coloring based on escape iterations
-    Real-time updates when parameters change
-
-
-- Technical Details:
-
-    Uses the GI.Gtk bindings for GTK
-    Cairo for rendering
-    Complex number calculations for fractal generation
-    State management using IORef
-   
-
+Uses shadcn/ui components for a polished look
 
 ***How To Run It?***
 
-- You will need to install the following dependencies:
-
-        cabal install gi-gtk gi-cairo haskell-gi-base
-
-- Run  **cabal build**  and then **cabal run**
+- start the backend:  
+    stack build  
+    stack exec fractal-backend  
+- start the frontend:    
+    npm install  
+    npm run dev 

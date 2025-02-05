@@ -1,0 +1,24 @@
+{
+  "name": "fractal_generator",
+  "version": "1.0.0",
+  "description": "***Authors:***   - Rodrigo Mederos González    - Alejandro Echevarría Brunet   - Amalia Beatriz Valiente Hinojosa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amabe418/Fractal_Generator.git"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amabe418/Fractal_Generator/issues"
+  },
+  "homepage": "https://github.com/amabe418/Fractal_Generator#readme"
+}
