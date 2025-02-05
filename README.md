@@ -1,45 +1,8 @@
-   
-***Authors:***  
-- Rodrigo Mederos González   
-- Alejandro Echevarría Brunet  
-- Amalia Beatriz Valiente Hinojosa  
+# React + Vite
 
-***Group:*** CC-312.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-This project implements a dynamic fractal generator created in haskell with a GTK-based user interface.  
-
-
-***Features:***  
-
-- Interactive Controls:  
-
-    Switch between Mandelbrot and Julia sets
-    Adjust maximum iterations using a slider
-    Pan by left-clicking and dragging
-    Zoom in by right-clicking
-
-
-- Visualization:
-
-    600x600 pixel canvas
-    Smooth coloring based on escape iterations
-    Real-time updates when parameters change
-
-
-- Technical Details:
-
-    Uses the GI.Gtk bindings for GTK
-    Cairo for rendering
-    Complex number calculations for fractal generation
-    State management using IORef
-   
-
-
-***How To Run It?***
-
-- You will need to install the following dependencies:
-
-        cabal install gi-gtk gi-cairo haskell-gi-base
-
-- Run  **cabal build**  and then **cabal run**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
