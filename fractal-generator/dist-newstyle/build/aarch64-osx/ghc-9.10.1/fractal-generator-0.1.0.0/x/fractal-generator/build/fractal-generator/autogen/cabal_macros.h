@@ -30,16 +30,26 @@
   (major1) == 4 && (major2) <  20 || \
   (major1) == 4 && (major2) == 20 && (minor) <= 0)
 #endif /* MIN_VERSION_base */
-/* package containers-0.7 */
+/* package containers-0.6.8 */
 #ifndef VERSION_containers
-#define VERSION_containers "0.7"
+#define VERSION_containers "0.6.8"
 #endif /* VERSION_containers */
 #ifndef MIN_VERSION_containers
 #define MIN_VERSION_containers(major1,major2,minor) (\
   (major1) <  0 || \
-  (major1) == 0 && (major2) <  7 || \
-  (major1) == 0 && (major2) == 7 && (minor) <= 0)
+  (major1) == 0 && (major2) <  6 || \
+  (major1) == 0 && (major2) == 6 && (minor) <= 8)
 #endif /* MIN_VERSION_containers */
+/* package deepseq-1.5.0.0 */
+#ifndef VERSION_deepseq
+#define VERSION_deepseq "1.5.0.0"
+#endif /* VERSION_deepseq */
+#ifndef MIN_VERSION_deepseq
+#define MIN_VERSION_deepseq(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  5 || \
+  (major1) == 1 && (major2) == 5 && (minor) <= 0)
+#endif /* MIN_VERSION_deepseq */
 /* package directory-1.3.8.3 */
 #ifndef VERSION_directory
 #define VERSION_directory "1.3.8.3"
@@ -70,6 +80,26 @@
   (major1) == 0 && (major2) <  2 || \
   (major1) == 0 && (major2) == 2 && (minor) <= 3)
 #endif /* MIN_VERSION_gloss_juicy */
+/* package gloss-raster-1.13.1.2 */
+#ifndef VERSION_gloss_raster
+#define VERSION_gloss_raster "1.13.1.2"
+#endif /* VERSION_gloss_raster */
+#ifndef MIN_VERSION_gloss_raster
+#define MIN_VERSION_gloss_raster(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  13 || \
+  (major1) == 1 && (major2) == 13 && (minor) <= 1)
+#endif /* MIN_VERSION_gloss_raster */
+/* package gloss-rendering-1.13.1.2 */
+#ifndef VERSION_gloss_rendering
+#define VERSION_gloss_rendering "1.13.1.2"
+#endif /* VERSION_gloss_rendering */
+#ifndef MIN_VERSION_gloss_rendering
+#define MIN_VERSION_gloss_rendering(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  13 || \
+  (major1) == 1 && (major2) == 13 && (minor) <= 1)
+#endif /* MIN_VERSION_gloss_rendering */
 /* package parallel-3.2.2.0 */
 #ifndef VERSION_parallel
 #define VERSION_parallel "3.2.2.0"
@@ -80,6 +110,16 @@
   (major1) == 3 && (major2) <  2 || \
   (major1) == 3 && (major2) == 2 && (minor) <= 2)
 #endif /* MIN_VERSION_parallel */
+/* package split-0.2.5 */
+#ifndef VERSION_split
+#define VERSION_split "0.2.5"
+#endif /* VERSION_split */
+#ifndef MIN_VERSION_split
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 5)
+#endif /* MIN_VERSION_split */
 /* package time-1.12.2 */
 #ifndef VERSION_time
 #define VERSION_time "1.12.2"
